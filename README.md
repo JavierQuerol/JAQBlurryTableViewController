@@ -24,6 +24,8 @@ or
 
 You can add as many views as you want to ```self.contentView```, all the views holded by contentView will change their alpha when scrolling.
 
+## Feedback
+
 [@javierquerol](https://twitter.com/javierquerol)
 
 ## License
