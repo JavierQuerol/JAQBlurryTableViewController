@@ -2,7 +2,7 @@
 
 UITableViewController with a Blurry Header that unblurs when scrolling up.
 
-[![](https://github.com/JavierQuerol/JAQBlurryTableViewController/JAQBlurryDemo.gif)](https://github.com/JavierQuerol/JAQBlurryTableViewController/JAQBlurryDemo.gif)
+[![](https://github.com/JavierQuerol/JAQBlurryTableViewController/blob/master/JAQBlurryDemo.gif)](https://github.com/JavierQuerol/JAQBlurryTableViewController/blob/master/JAQBlurryDemo.gif)
 
 ## Usage
 
