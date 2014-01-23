@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary      = "UITableViewController with a Blurry Header that unblurs when scrolling up"
 
   s.homepage     = "https://github.com/JavierQuerol/JAQBlurryTableViewController"
-  s.screenshots  = "https://github.com/JavierQuerol/JAQBlurryTableViewController/JAQBlurryDemo.gif"
+  s.screenshots  = "https://dl.dropboxusercontent.com/u/15831273/JAQBlurryDemo.gif"
 
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
 
@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '6.0'
   s.source       = { :git => "https://github.com/JavierQuerol/JAQBlurryTableViewController.git", :tag => s.version.to_s }
 
-  s.source_files = 'Demo/Classes/**/*.{h,m}'
-  s.public_header_files = 'Demo/Classes/**/*.h'
+  s.source_files = 'Classes/**/*.{h,m}'
+  s.public_header_files = 'Classes/**/*.h'
   s.requires_arc = true
 end
