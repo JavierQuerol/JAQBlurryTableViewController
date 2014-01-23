@@ -2,7 +2,7 @@
 
 UITableViewController with a Blurry Header that unblurs when scrolling up.
 
-[![](https://github.com/JavierQuerol/JAQBlurryTableViewController/JAQBlurryDemo.gif))](https://github.com/JavierQuerol/JAQBlurryTableViewController/JAQBlurryDemo.gif)
+[![](https://dl.dropboxusercontent.com/u/15831273/JAQBlurryDemo.gif)](https://dl.dropboxusercontent.com/u/15831273/JAQBlurryDemo.gif)
 
 ## Usage
 
@@ -22,7 +22,11 @@ or
 [self configureBannerWithImage:[UIImage imageNamed:@"cats"] height:200 blurRadius:12 blurTintColor:[UIColor colorWithWhite:0 alpha:0.5] saturationFactor:1];
 ```
 
-You can add as many views as you want to ```self.contentView```, all the views holded by contentView will change their alpha when scroll.
+You can add as many views as you want to ```self.contentView```, all the views holded by contentView will change their alpha when scrolling.
+
+## Feedback
+
+[@javierquerol](https://twitter.com/javierquerol)
 
 ## License
 
