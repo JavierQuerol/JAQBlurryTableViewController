@@ -7,11 +7,11 @@
 #import <UIKit/UIKit.h>
 
 @interface JAQBlurryTableViewController : UITableViewController
-@property (nonatomic, strong) UILabel *label;
+@property (nonatomic, strong) UIView *contentView;
 @property (nonatomic, strong) UIImageView *titleImageView;
 @property (nonatomic, assign) CGFloat height;
 
-- (void)configureBannerWithImage:(UIImage *)image text:(NSString *)text height:(CGFloat)height;
-- (void)configureBannerWithImage:(UIImage *)image text:(NSString *)text height:(CGFloat)height blurRadius:(CGFloat)blurRadius blurTintColor:(UIColor *)blurColor saturationFactor:(CGFloat)saturarion;
+- (void)configureBannerWithImage:(UIImage *)image height:(CGFloat)height;
+- (void)configureBannerWithImage:(UIImage *)image height:(CGFloat)height blurRadius:(CGFloat)blurRadius blurTintColor:(UIColor *)blurColor saturationFactor:(CGFloat)saturarion;
 
 @end
