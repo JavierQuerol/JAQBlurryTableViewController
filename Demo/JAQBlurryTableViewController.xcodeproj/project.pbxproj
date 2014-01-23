@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BD23FF41891061A00EB6774 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BD23FF31891061A00EB6774 /* Foundation.framework */; };
+		3BD23FF61891061A00EB6774 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BD23FF51891061A00EB6774 /* CoreGraphics.framework */; };
+		3BD23FF81891061A00EB6774 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BD23FF71891061A00EB6774 /* UIKit.framework */; };
+		3BD23FFE1891061A00EB6774 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3BD23FFC1891061A00EB6774 /* InfoPlist.strings */; };
+		3BD240001891061A00EB6774 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD23FFF1891061A00EB6774 /* main.m */; };
+		3BD240041891061A00EB6774 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD240031891061A00EB6774 /* AppDelegate.m */; };
+		3BD2400A1891061A00EB6774 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD240091891061A00EB6774 /* TableViewController.m */; };
+		3BD2400C1891061A00EB6774 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BD2400B1891061A00EB6774 /* Images.xcassets */; };
+		3BD240131891061A00EB6774 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BD240121891061A00EB6774 /* XCTest.framework */; };
+		3BD240141891061A00EB6774 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BD23FF31891061A00EB6774 /* Foundation.framework */; };
+		3BD240151891061A00EB6774 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BD23FF71891061A00EB6774 /* UIKit.framework */; };
+		3BD2401D1891061A00EB6774 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3BD2401B1891061A00EB6774 /* InfoPlist.strings */; };
+		3BD2401F1891061A00EB6774 /* JAQBlurryTableViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD2401E1891061A00EB6774 /* JAQBlurryTableViewControllerTests.m */; };
+		3BD240331891084200EB6774 /* JAQBlurryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD240301891084200EB6774 /* JAQBlurryTableViewController.m */; };
+		3BD240341891084200EB6774 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD240321891084200EB6774 /* UIImage+ImageEffects.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3BD240161891061A00EB6774 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BD23FE81891061A00EB6774 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BD23FEF1891061A00EB6774;
+			remoteInfo = JAQBlurryTableViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3BD23FF01891061A00EB6774 /* JAQBlurryTableViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JAQBlurryTableViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BD23FF31891061A00EB6774 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3BD23FF51891061A00EB6774 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3BD23FF71891061A00EB6774 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3BD23FFB1891061A00EB6774 /* JAQBlurryTableViewController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JAQBlurryTableViewController-Info.plist"; sourceTree = "<group>"; };
+		3BD23FFD1891061A00EB6774 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3BD23FFF1891061A00EB6774 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3BD240011891061A00EB6774 /* JAQBlurryTableViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JAQBlurryTableViewController-Prefix.pch"; sourceTree = "<group>"; };
+		3BD240021891061A00EB6774 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3BD240031891061A00EB6774 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3BD240081891061A00EB6774 /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		3BD240091891061A00EB6774 /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		3BD2400B1891061A00EB6774 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3BD240111891061A00EB6774 /* JAQBlurryTableViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JAQBlurryTableViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BD240121891061A00EB6774 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3BD2401A1891061A00EB6774 /* JAQBlurryTableViewControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JAQBlurryTableViewControllerTests-Info.plist"; sourceTree = "<group>"; };
+		3BD2401C1891061A00EB6774 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3BD2401E1891061A00EB6774 /* JAQBlurryTableViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JAQBlurryTableViewControllerTests.m; sourceTree = "<group>"; };
+		3BD2402F1891084200EB6774 /* JAQBlurryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JAQBlurryTableViewController.h; path = ../../Classes/JAQBlurryTableViewController.h; sourceTree = "<group>"; };
+		3BD240301891084200EB6774 /* JAQBlurryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JAQBlurryTableViewController.m; path = ../../Classes/JAQBlurryTableViewController.m; sourceTree = "<group>"; };
+		3BD240311891084200EB6774 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+ImageEffects.h"; path = "../../Classes/UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		3BD240321891084200EB6774 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ImageEffects.m"; path = "../../Classes/UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BD23FED1891061A00EB6774 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BD23FF61891061A00EB6774 /* CoreGraphics.framework in Frameworks */,
+				3BD23FF81891061A00EB6774 /* UIKit.framework in Frameworks */,
+				3BD23FF41891061A00EB6774 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BD2400E1891061A00EB6774 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BD240131891061A00EB6774 /* XCTest.framework in Frameworks */,
+				3BD240151891061A00EB6774 /* UIKit.framework in Frameworks */,
+				3BD240141891061A00EB6774 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BD23FE71891061A00EB6774 = {
+			isa = PBXGroup;
+			children = (
+				3BD23FF91891061A00EB6774 /* JAQBlurryTableViewController */,
+				3BD240181891061A00EB6774 /* JAQBlurryTableViewControllerTests */,
+				3BD23FF21891061A00EB6774 /* Frameworks */,
+				3BD23FF11891061A00EB6774 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BD23FF11891061A00EB6774 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BD23FF01891061A00EB6774 /* JAQBlurryTableViewController.app */,
+				3BD240111891061A00EB6774 /* JAQBlurryTableViewControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BD23FF21891061A00EB6774 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BD23FF31891061A00EB6774 /* Foundation.framework */,
+				3BD23FF51891061A00EB6774 /* CoreGraphics.framework */,
+				3BD23FF71891061A00EB6774 /* UIKit.framework */,
+				3BD240121891061A00EB6774 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3BD23FF91891061A00EB6774 /* JAQBlurryTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3BD240021891061A00EB6774 /* AppDelegate.h */,
+				3BD240031891061A00EB6774 /* AppDelegate.m */,
+				3BD240081891061A00EB6774 /* TableViewController.h */,
+				3BD240091891061A00EB6774 /* TableViewController.m */,
+				3BD240281891063B00EB6774 /* Classes */,
+				3BD2400B1891061A00EB6774 /* Images.xcassets */,
+				3BD23FFA1891061A00EB6774 /* Supporting Files */,
+			);
+			path = JAQBlurryTableViewController;
+			sourceTree = "<group>";
+		};
+		3BD23FFA1891061A00EB6774 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BD23FFB1891061A00EB6774 /* JAQBlurryTableViewController-Info.plist */,
+				3BD23FFC1891061A00EB6774 /* InfoPlist.strings */,
+				3BD23FFF1891061A00EB6774 /* main.m */,
+				3BD240011891061A00EB6774 /* JAQBlurryTableViewController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3BD240181891061A00EB6774 /* JAQBlurryTableViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3BD2401E1891061A00EB6774 /* JAQBlurryTableViewControllerTests.m */,
+				3BD240191891061A00EB6774 /* Supporting Files */,
+			);
+			path = JAQBlurryTableViewControllerTests;
+			sourceTree = "<group>";
+		};
+		3BD240191891061A00EB6774 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BD2401A1891061A00EB6774 /* JAQBlurryTableViewControllerTests-Info.plist */,
+				3BD2401B1891061A00EB6774 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3BD240281891063B00EB6774 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3BD2402F1891084200EB6774 /* JAQBlurryTableViewController.h */,
+				3BD240301891084200EB6774 /* JAQBlurryTableViewController.m */,
+				3BD240311891084200EB6774 /* UIImage+ImageEffects.h */,
+				3BD240321891084200EB6774 /* UIImage+ImageEffects.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BD23FEF1891061A00EB6774 /* JAQBlurryTableViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BD240221891061A00EB6774 /* Build configuration list for PBXNativeTarget "JAQBlurryTableViewController" */;
+			buildPhases = (
+				3BD23FEC1891061A00EB6774 /* Sources */,
+				3BD23FED1891061A00EB6774 /* Frameworks */,
+				3BD23FEE1891061A00EB6774 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JAQBlurryTableViewController;
+			productName = JAQBlurryTableViewController;
+			productReference = 3BD23FF01891061A00EB6774 /* JAQBlurryTableViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3BD240101891061A00EB6774 /* JAQBlurryTableViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BD240251891061A00EB6774 /* Build configuration list for PBXNativeTarget "JAQBlurryTableViewControllerTests" */;
+			buildPhases = (
+				3BD2400D1891061A00EB6774 /* Sources */,
+				3BD2400E1891061A00EB6774 /* Frameworks */,
+				3BD2400F1891061A00EB6774 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BD240171891061A00EB6774 /* PBXTargetDependency */,
+			);
+			name = JAQBlurryTableViewControllerTests;
+			productName = JAQBlurryTableViewControllerTests;
+			productReference = 3BD240111891061A00EB6774 /* JAQBlurryTableViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BD23FE81891061A00EB6774 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Javier Querol";
+				TargetAttributes = {
+					3BD240101891061A00EB6774 = {
+						TestTargetID = 3BD23FEF1891061A00EB6774;
+					};
+				};
+			};
+			buildConfigurationList = 3BD23FEB1891061A00EB6774 /* Build configuration list for PBXProject "JAQBlurryTableViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BD23FE71891061A00EB6774;
+			productRefGroup = 3BD23FF11891061A00EB6774 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BD23FEF1891061A00EB6774 /* JAQBlurryTableViewController */,
+				3BD240101891061A00EB6774 /* JAQBlurryTableViewControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BD23FEE1891061A00EB6774 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BD2400C1891061A00EB6774 /* Images.xcassets in Resources */,
+				3BD23FFE1891061A00EB6774 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BD2400F1891061A00EB6774 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BD2401D1891061A00EB6774 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BD23FEC1891061A00EB6774 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BD240331891084200EB6774 /* JAQBlurryTableViewController.m in Sources */,
+				3BD240341891084200EB6774 /* UIImage+ImageEffects.m in Sources */,
+				3BD2400A1891061A00EB6774 /* TableViewController.m in Sources */,
+				3BD240041891061A00EB6774 /* AppDelegate.m in Sources */,
+				3BD240001891061A00EB6774 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BD2400D1891061A00EB6774 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BD2401F1891061A00EB6774 /* JAQBlurryTableViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BD240171891061A00EB6774 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BD23FEF1891061A00EB6774 /* JAQBlurryTableViewController */;
+			targetProxy = 3BD240161891061A00EB6774 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3BD23FFC1891061A00EB6774 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BD23FFD1891061A00EB6774 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3BD2401B1891061A00EB6774 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BD2401C1891061A00EB6774 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BD240201891061A00EB6774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3BD240211891061A00EB6774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BD240231891061A00EB6774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JAQBlurryTableViewController/JAQBlurryTableViewController-Prefix.pch";
+				INFOPLIST_FILE = "JAQBlurryTableViewController/JAQBlurryTableViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3BD240241891061A00EB6774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JAQBlurryTableViewController/JAQBlurryTableViewController-Prefix.pch";
+				INFOPLIST_FILE = "JAQBlurryTableViewController/JAQBlurryTableViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3BD240261891061A00EB6774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JAQBlurryTableViewController.app/JAQBlurryTableViewController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JAQBlurryTableViewController/JAQBlurryTableViewController-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JAQBlurryTableViewControllerTests/JAQBlurryTableViewControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3BD240271891061A00EB6774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JAQBlurryTableViewController.app/JAQBlurryTableViewController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JAQBlurryTableViewController/JAQBlurryTableViewController-Prefix.pch";
+				INFOPLIST_FILE = "JAQBlurryTableViewControllerTests/JAQBlurryTableViewControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BD23FEB1891061A00EB6774 /* Build configuration list for PBXProject "JAQBlurryTableViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BD240201891061A00EB6774 /* Debug */,
+				3BD240211891061A00EB6774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BD240221891061A00EB6774 /* Build configuration list for PBXNativeTarget "JAQBlurryTableViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BD240231891061A00EB6774 /* Debug */,
+				3BD240241891061A00EB6774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BD240251891061A00EB6774 /* Build configuration list for PBXNativeTarget "JAQBlurryTableViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BD240261891061A00EB6774 /* Debug */,
+				3BD240271891061A00EB6774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BD23FE81891061A00EB6774 /* Project object */;
+}
