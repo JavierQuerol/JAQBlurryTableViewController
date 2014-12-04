@@ -12,7 +12,15 @@ Pod::Spec.new do |s|
   s.version          = "1.0.0"
   s.summary          = "UITableViewController with a Blurry Header that unblurs when scrolling up, like Tweetbot."
   s.description      = <<-DESC
-                       UITableViewController with a Blurry Header that unblurs when scrolling up, like Tweetbot.
+```objective-c
+[self configureBannerWithImage:[UIImage imageNamed:@"cats"]];
+```
+or
+```objective-c
+[self configureBannerWithImage:[UIImage imageNamed:@"cats"] blurRadius:12 blurTintColor:[UIColor colorWithWhite:0 alpha:0.5] saturationFactor:1];
+```
+
+You can add as many views as you want to self.contentView, all the views holded by the contentView will change their alpha when scrolling.
                        DESC
   s.homepage         = "https://github.com/javierquerol/JAQBlurryTableViewController"
   s.screenshots   	 = "https://dl.dropboxusercontent.com/u/15831273/JAQBlurryDemo.gif"
