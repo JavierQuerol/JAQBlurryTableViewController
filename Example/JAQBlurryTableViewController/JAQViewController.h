@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <JAQBlurryTableViewController.h>
 
-@interface JAQViewController : UIViewController
+@interface JAQViewController : JAQBlurryTableViewController
 
 @end

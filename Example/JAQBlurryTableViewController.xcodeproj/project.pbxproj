@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C12D7192507531D7A308868 /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA17029E7D02F70A4A7F0BFA /* libPods-Tests.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* JAQAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* JAQAppDelegate.m */; };
-		6003F5A1195388D20070C39A /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6003F59F195388D20070C39A /* Main_iPhone.storyboard */; };
-		6003F5A4195388D20070C39A /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A2195388D20070C39A /* Main_iPad.storyboard */; };
 		6003F5A7195388D20070C39A /* JAQViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* JAQViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
@@ -22,6 +21,7 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		BF2DC6B28AEC38CFD48319D6 /* libPods-JAQBlurryTableViewController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D193C3BB76B293DA78583C58 /* libPods-JAQBlurryTableViewController.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +35,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A70DA2CFE8AFC55018E36D3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0A70DA2CFE8AFC55018E36D3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		263F316E806D34C4A9073024 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3DA6BFB18FBC0CE0E090BB78 /* Pods-JAQBlurryTableViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JAQBlurryTableViewController.release.xcconfig"; path = "Pods/Target Support Files/Pods-JAQBlurryTableViewController/Pods-JAQBlurryTableViewController.release.xcconfig"; sourceTree = "<group>"; };
 		47CE5E0910C891ABCC2ECB5D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5C8CA26D61C6DDB1AADC2850 /* Pods-JAQBlurryTableViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JAQBlurryTableViewController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JAQBlurryTableViewController/Pods-JAQBlurryTableViewController.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* JAQBlurryTableViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JAQBlurryTableViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -47,8 +50,6 @@
 		6003F59B195388D20070C39A /* JAQBlurryTableViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JAQBlurryTableViewController-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* JAQAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JAQAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* JAQAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JAQAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A0195388D20070C39A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		6003F5A3195388D20070C39A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		6003F5A5195388D20070C39A /* JAQViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JAQViewController.h; sourceTree = "<group>"; };
 		6003F5A6195388D20070C39A /* JAQViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JAQViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -58,7 +59,10 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		F3BE3D8F08E310D0A809D04F /* JAQBlurryTableViewController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = JAQBlurryTableViewController.podspec; path = ../JAQBlurryTableViewController.podspec; sourceTree = "<group>"; };
+		AD23555E974F2C944003BEB2 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BA17029E7D02F70A4A7F0BFA /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D193C3BB76B293DA78583C58 /* libPods-JAQBlurryTableViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JAQBlurryTableViewController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3BE3D8F08E310D0A809D04F /* JAQBlurryTableViewController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JAQBlurryTableViewController.podspec; path = ../JAQBlurryTableViewController.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
+				BF2DC6B28AEC38CFD48319D6 /* libPods-JAQBlurryTableViewController.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,12 +84,24 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
+				2C12D7192507531D7A308868 /* libPods-Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		381CDF7F42291DFDFADB7AE4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C8CA26D61C6DDB1AADC2850 /* Pods-JAQBlurryTableViewController.debug.xcconfig */,
+				3DA6BFB18FBC0CE0E090BB78 /* Pods-JAQBlurryTableViewController.release.xcconfig */,
+				263F316E806D34C4A9073024 /* Pods-Tests.debug.xcconfig */,
+				AD23555E974F2C944003BEB2 /* Pods-Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +110,7 @@
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
+				381CDF7F42291DFDFADB7AE4 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,6 +130,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
+				D193C3BB76B293DA78583C58 /* libPods-JAQBlurryTableViewController.a */,
+				BA17029E7D02F70A4A7F0BFA /* libPods-Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -121,8 +141,6 @@
 			children = (
 				6003F59C195388D20070C39A /* JAQAppDelegate.h */,
 				6003F59D195388D20070C39A /* JAQAppDelegate.m */,
-				6003F59F195388D20070C39A /* Main_iPhone.storyboard */,
-				6003F5A2195388D20070C39A /* Main_iPad.storyboard */,
 				6003F5A5195388D20070C39A /* JAQViewController.h */,
 				6003F5A6195388D20070C39A /* JAQViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
@@ -178,9 +196,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "JAQBlurryTableViewController" */;
 			buildPhases = (
+				8EDA530EA7C5BD6BC02EEE0A /* Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
+				89BBDC4934D437980B3E878A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,9 +215,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "Tests" */;
 			buildPhases = (
+				192FBC74AD4419406E929951 /* Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
+				082480401236B5B236631758 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -224,7 +246,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "PROJECT" */;
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "JAQBlurryTableViewController" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -248,9 +270,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5A4195388D20070C39A /* Main_iPad.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
-				6003F5A1195388D20070C39A /* Main_iPhone.storyboard in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +284,69 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		082480401236B5B236631758 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests/Pods-Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		192FBC74AD4419406E929951 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		89BBDC4934D437980B3E878A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JAQBlurryTableViewController/Pods-JAQBlurryTableViewController-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EDA530EA7C5BD6BC02EEE0A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6003F586195388D20070C39A /* Sources */ = {
@@ -301,22 +384,6 @@
 				6003F597195388D20070C39A /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		6003F59F195388D20070C39A /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6003F5A0195388D20070C39A /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		6003F5A2195388D20070C39A /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6003F5A3195388D20070C39A /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		6003F5B8195388D20070C39A /* InfoPlist.strings */ = {
@@ -404,6 +471,7 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C8CA26D61C6DDB1AADC2850 /* Pods-JAQBlurryTableViewController.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -417,6 +485,7 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DA6BFB18FBC0CE0E090BB78 /* Pods-JAQBlurryTableViewController.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -430,6 +499,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 263F316E806D34C4A9073024 /* Pods-Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JAQBlurryTableViewController.app/JAQBlurryTableViewController";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -452,6 +522,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD23555E974F2C944003BEB2 /* Pods-Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JAQBlurryTableViewController.app/JAQBlurryTableViewController";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -471,7 +542,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6003F585195388D10070C39A /* Build configuration list for PBXProject "PROJECT" */ = {
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "JAQBlurryTableViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5BD195388D20070C39A /* Debug */,

@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "JAQBlurryTableViewController"
-  s.version          = "0.1.0"
+  s.version          = "1.0.0"
   s.summary          = "A short description of JAQBlurryTableViewController."
   s.description      = <<-DESC
                        An optional longer description of JAQBlurryTableViewController
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
                        * Markdown format.
                        * Don't worry about the indent, we strip it!
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/JAQBlurryTableViewController"
+  s.homepage         = "https://github.com/javierquerol/JAQBlurryTableViewController"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Javier Querol" => "querol.javi@gmail.com" }
@@ -27,12 +27,8 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes'
+  s.source_files = 'Pod/Classes/**/*.*'
   s.resource_bundles = {
     'JAQBlurryTableViewController' => ['Pod/Assets/*.png']
   }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
