@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'JAQBlurryTableViewController', :exclusive => true do
+  pod "JAQBlurryTableViewController", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "JAQBlurryTableViewController", :path => "../"
+
+  
+end
