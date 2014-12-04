@@ -12,17 +12,14 @@ Pod::Spec.new do |s|
   s.version          = "1.0.0"
   s.summary          = "A short description of JAQBlurryTableViewController."
   s.description      = <<-DESC
-                       An optional longer description of JAQBlurryTableViewController
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       UITableViewController with a Blurry Header that unblurs when scrolling up, like Tweetbot.
                        DESC
   s.homepage         = "https://github.com/javierquerol/JAQBlurryTableViewController"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.screenshots   	 = "https://dl.dropboxusercontent.com/u/15831273/JAQBlurryDemo.gif"
   s.license          = 'MIT'
   s.author           = { "Javier Querol" => "querol.javi@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/JAQBlurryTableViewController.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/javierquerol/JAQBlurryTableViewController.git", :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/javierquerol'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
