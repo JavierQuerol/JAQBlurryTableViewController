@@ -10,7 +10,7 @@
 Pod::Spec.new do |s|
   s.name             = "JAQBlurryTableViewController"
   s.version          = "1.0.0"
-  s.summary          = "A short description of JAQBlurryTableViewController."
+  s.summary          = "UITableViewController with a Blurry Header that unblurs when scrolling up, like Tweetbot."
   s.description      = <<-DESC
                        UITableViewController with a Blurry Header that unblurs when scrolling up, like Tweetbot.
                        DESC
